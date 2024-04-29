@@ -4,6 +4,7 @@ npm start
 ### Stack
 The app is created with React, styled with CSS. 
 I've used a firebase storage app for CV uploads.
+Jest and babel are ready to implement tests. I didn't do it for a lack of time.
 
 ### Experience
 I created an account and explored the bot creation portal, it was a very fun experience.

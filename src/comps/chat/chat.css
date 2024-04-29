@@ -1,0 +1,51 @@
+.landbot-messages-container{
+    background-color: rgb(239, 240, 240);
+    width: 70vw;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    height: 83vh;
+    overflow-y: scroll;
+    border-radius: 30px;
+    box-shadow: 3px 10px 30px rgba(0, 0, 0, 0.387);
+    padding: 5% 5% 0% 5%
+}
+.bot{
+    background-color: rgb(160, 248, 185);
+    width: fit-content;
+    margin: 5px;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+    color: rgb(30, 30, 30);
+    font-weight: 600;
+    margin-top:20px;
+}
+.user {
+    background-color: rgb(226, 226, 226);
+    width: fit-content;
+    margin: 5px;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+    color: rgb(30, 30, 30);
+    font-weight: 600;
+    display: flex;
+    margin-top: 20px;
+}
+.user.user {
+    margin-left: auto;
+}
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .landbot-messages-container{
+        background-color: rgb(239, 240, 240);
+        width: 90vw;
+        margin-left: 0vw;
+        margin-top: 3vh;
+        height: 75vh;
+        overflow-y: scroll;
+        border-radius: 0px;
+        box-shadow: none;
+        padding: 5% 5% 0% 5%
+    }
+}

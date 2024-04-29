@@ -1,0 +1,49 @@
+.landbot-input-container {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.landbot-input {
+    width: 50vw;
+    background-color: rgb(210, 209, 209);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(30, 30, 30);
+    font-weight: 600;
+    outline: none;
+    height: 20px;
+    box-shadow: -3px 3px rgb(210, 210, 210);
+}
+
+.landbot-input-send {
+    background-color: rgb(45, 146, 241);
+    border: none;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    cursor: pointer;
+    height: 41px;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .landbot-input {
+        width: 70vw;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        color: rgb(30, 30, 30);
+        font-weight: 600;
+        box-shadow: none;
+        padding: 12px 20px;
+    }
+}
